@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appfuncionesmatemticas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Ejemplo2congruente"></activity>
+        <activity android:name=".Ejemplo1congruente" />
+        <activity android:name=".TriangulosSemejantes" />
+        <activity android:name=".Comprobar3" />
+        <activity android:name=".comprobar2" />
+        <activity android:name=".Comprobar1" />
+        <activity android:name=".ejemplo3" />
+        <activity android:name=".ejemplo2" />
+        <activity android:name=".ejemplo1" />
+        <activity android:name=".GradosMinutosYSegundosAGrados" />
+        <activity android:name=".GradosMinutosYSegubdosAMinutos" />
+        <activity android:name=".DeGradosMinutosYSedundosASegundos" />
+        <activity android:name=".Ortaedro" />
+        <activity android:name=".PrismaRectangular" />
+        <activity android:name=".FigurasCompuestas6" />
+        <activity android:name=".CalculosDelCuboOHexaedro" />
+        <activity android:name=".DivicionDeGradosMinutosYSegundos" />
+        <activity android:name=".MultiplicacionDeGradosMinutosYSegundos" />
+        <activity android:name=".RestaDeGradosMinutosYSegundos" />
+        <activity android:name=".SumaDeGradosMinutosYSegundos" />
+        <activity android:name=".GradosAGradosMinutosYSegundos" />
+        <activity android:name=".Grados_radianes" />
+        <activity android:name=".Pitagoras3" />
+        <activity android:name=".Pitagoras2" />
+        <activity android:name=".Pitagoras1" />
+        <activity android:name=".Pitagoras" />
+        <activity android:name=".Figura6_6" />
+        <activity android:name=".Figura5_5" />
+        <activity android:name=".Figura8" />
+        <activity android:name=".Figura9" />
+        <activity android:name=".FigurasCompuestas5" />
+        <activity android:name=".FigurasCompuestas4" />
+        <activity android:name=".FigurasCompuestas3" />
+        <activity android:name=".Figura7" />
+        <activity android:name=".Figura5" />
+        <activity android:name=".Figura4" />
+        <activity android:name=".Figura3" />
+        <activity android:name=".Figura2" />
+        <activity android:name=".Figura1" />
+        <activity android:name=".FigurasCompuestas2" />
+        <activity android:name=".FigurasCompuestas" />
+        <activity android:name=".OperacionesBasicasConAngulos" />
+        <activity android:name=".RelacionDeConversiones" />
+        <activity android:name=".CalculosDelParalelogramo" />
+        <activity android:name=".CalculosDelPentagono" />
+        <activity android:name=".CalculosDelCirculo" />
+        <activity android:name=".CalculosDelCuadrado" />
+        <activity android:name=".CalculosDelTrapecio" />
+        <activity android:name=".CalculosDelRombo" />
+        <activity android:name=".CalculosDelRectangulo" />
+        <activity android:name=".CalculosDelTriangulo" />
+        <activity android:name=".PerimetroyArea" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

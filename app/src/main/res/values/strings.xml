@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppFuncionesMatemáticas</string>
+    <string name="primerboton">Perímetro y Área</string>
+    <string name="tv1">Funciones Matemáticas</string>
+    <string name="Botonanterior">Atrás</string>
+    <string name="tv2">Perímetro y Área</string>
+</resources>
