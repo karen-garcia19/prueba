@@ -12,9 +12,7 @@ public class LeyDeSenos extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ley_de_senos);
-    }
-
-    //Metodo para el boton opc1
+    }    //Metodo para el boton opc1
 
     public void opc1 (View View){
         Intent opc1 = new Intent(this, Caso1.class);
@@ -34,4 +32,6 @@ public class LeyDeSenos extends AppCompatActivity {
         Intent opc3 = new Intent(this, Caso3.class);
         startActivity(opc3);
     }
+
+
 }

@@ -6,6 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".ValoresDeLasFunciones">
 
+    <Button
+        android:id="@+id/button112"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:onClick="opc5"
+        android:text="caso 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button66" />
+
     <TextView
         android:id="@+id/textView169"
         android:layout_width="wrap_content"
@@ -19,4 +34,48 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="@string/tv1" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginLeft="121dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginRight="121dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView169"
+        app:srcCompat="@drawable/hola" />
+
+    <Button
+        android:id="@+id/button66"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:onClick="opc4"
+        android:text="caso 1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView49" />
+
+    <Button
+        android:id="@+id/button129"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:onClick="opc6"
+        android:text="caso 3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button112" />
 </androidx.constraintlayout.widget.ConstraintLayout>

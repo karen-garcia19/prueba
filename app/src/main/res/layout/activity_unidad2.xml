@@ -9,6 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#9FF0E392"
         tools:context=".unidad1">
 
         <Button
@@ -20,6 +21,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
             android:layout_marginRight="20dp"
+            android:background="#9F00BCD4"
             android:onClick="pitagoras"
             android:text="Teorema de Pitágoras "
             app:layout_constraintEnd_toEndOf="parent"
@@ -44,11 +46,11 @@
             android:id="@+id/textView164"
             android:layout_width="100dp"
             android:layout_height="30dp"
-            android:layout_marginStart="168dp"
-            android:layout_marginLeft="168dp"
+            android:layout_marginStart="181dp"
+            android:layout_marginLeft="181dp"
             android:layout_marginTop="20dp"
-            android:layout_marginEnd="168dp"
-            android:layout_marginRight="168dp"
+            android:layout_marginEnd="130dp"
+            android:layout_marginRight="130dp"
             android:text="Menú"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -64,25 +66,12 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="20dp"
             android:layout_marginRight="20dp"
-            android:onClick="trigono"
+            android:background="#9F00BCD4"
+            android:onClick="funcion"
             android:text="Funciones trigonométricas"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button10" />
-
-        <Button
-            android:id="@+id/button66"
-            android:layout_width="250dp"
-            android:layout_height="55dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginRight="20dp"
-            android:text="Valores de las funciones trigonométricas"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button12" />
+            app:layout_constraintTop_toBottomOf="@+id/button141" />
 
         <Button
             android:id="@+id/button105"
@@ -93,10 +82,43 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="20dp"
             android:layout_marginRight="20dp"
+            android:background="#9F00BCD4"
             android:onClick="oblic"
             android:text="Triángulos oblicuángulos"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button66" />
+            app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+        <Button
+            android:id="@+id/button138"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#9F00BCD4"
+            android:onClick="natu"
+            android:text="Naturaleza del triángulo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+        <Button
+            android:id="@+id/button141"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#9F00BCD4"
+            android:onClick="cofucion"
+            android:text="Cofución"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button138" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

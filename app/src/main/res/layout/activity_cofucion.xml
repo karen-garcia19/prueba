@@ -71,7 +71,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView168" />
 
     <TextView
-        android:id="@+id/res2"
+        android:id="@+id/hula1234"
         android:layout_width="200dp"
         android:layout_height="40dp"
         android:layout_marginTop="30dp"
@@ -89,6 +89,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="20dp"
+        android:onClick="cofucion"
         android:text="Calcular"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/angulo" />

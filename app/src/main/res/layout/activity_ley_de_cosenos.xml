@@ -50,8 +50,8 @@
         android:id="@+id/ingresaA1"
         android:layout_width="130dp"
         android:layout_height="50dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="Ingrese  lado a"
@@ -63,11 +63,11 @@
         android:id="@+id/ingresaC1"
         android:layout_width="130dp"
         android:layout_height="50dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="-1dp"
         android:ems="10"
-        android:hint="Ingrese lado b"
+        android:hint="Ingrese lado c"
         android:inputType="numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ingresaB1" />
@@ -76,29 +76,28 @@
         android:id="@+id/ingresaB1"
         android:layout_width="130dp"
         android:layout_height="50dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
         android:ems="10"
-        android:hint="Ingrese lado c"
+        android:hint="Ingrese lado b"
         android:inputType="numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ingresaA1" />
 
     <EditText
         android:id="@+id/angulo1"
-        android:layout_width="130dp"
+        android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_marginStart="101dp"
-        android:layout_marginLeft="101dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="25dp"
         android:layout_marginRight="25dp"
         android:ems="10"
-        android:hint="Ingrese ángulo"
+        android:hint="ángulo del lado faltante"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/ingresaC1"
         app:layout_constraintTop_toBottomOf="@+id/imageView43" />
 
@@ -109,24 +108,10 @@
         android:layout_marginStart="25dp"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="15dp"
+        android:onClick="cosenos"
         android:text="Calcular"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ingresaC1" />
-
-    <TextView
-        android:id="@+id/res2"
-        android:layout_width="250dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginLeft="48dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginRight="25dp"
-        android:text="Resultado"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button121"
-        app:layout_constraintTop_toBottomOf="@+id/angulo1" />
 
     <ImageView
         android:id="@+id/imageView43"
@@ -145,13 +130,28 @@
         android:layout_height="38dp"
         android:layout_marginStart="25dp"
         android:layout_marginLeft="25dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="25dp"
         android:layout_marginRight="25dp"
         android:onClick="angulo"
         android:text="Calcular el ángulo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/res2" />
+        app:layout_constraintTop_toBottomOf="@+id/Gar12" />
+
+    <TextView
+        android:id="@+id/Gar12"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Resultado"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button121"
+        app:layout_constraintTop_toBottomOf="@+id/angulo1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

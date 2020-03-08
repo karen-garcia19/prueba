@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Caso1"></activity>
+        <activity android:name=".ObtusanguloYAcutangulo" />
+        <activity android:name=".Caso6" />
+        <activity android:name=".Caso5" />
+        <activity android:name=".Caso4" />
+        <activity android:name=".Caso1" />
         <activity android:name=".Caso3" />
         <activity android:name=".Caso2" />
         <activity android:name=".CalculosDelAnguloCos" />
@@ -19,7 +23,6 @@
         <activity android:name=".Unidad" />
         <activity android:name=".ValoresDeLasFunciones" />
         <activity android:name=".Cofucion" />
-        <activity android:name=".FuncionesTrigonometricas" />
         <activity android:name=".Unidad2" />
         <activity android:name=".Ejemplo2congruente" />
         <activity android:name=".Ejemplo1congruente" />

@@ -20,15 +20,28 @@ public class Unidad2 extends AppCompatActivity {
         startActivity(pitagoras);
     }
 
-    //metodo del boton funcionestri
-    public void trigono (View view){
-        Intent trigono = new Intent(this,FuncionesTrigonometricas.class);
-        startActivity(trigono);
-    }
 
-    //metodo del boton oblicu´´angulos
+    //metodo del boton oblicuangulos
     public void oblic (View view){
         Intent oblic = new Intent(this,TriangulosOblicuangulos.class);
         startActivity(oblic);
+    }
+
+    //metodo del boton Naturaleza del triángulo
+    public void natu (View view){
+        Intent natu = new Intent(this,ObtusanguloYAcutangulo.class);
+        startActivity(natu);
+    }
+
+    //metodo del boton cofucion
+    public void cofucion (View view){
+        Intent cofucion = new Intent(this,Cofucion.class);
+        startActivity(cofucion);
+    }
+
+    //metodo del boton funciones trigonométricas
+    public void funcion (View view){
+        Intent funcion = new Intent(this,ValoresDeLasFunciones.class);
+        startActivity(funcion);
     }
 }

@@ -13,6 +13,7 @@
         android:layout_marginStart="25dp"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="40dp"
+        android:onClick="seno1"
         android:text="calcular"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/senB2" />
@@ -85,7 +86,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView46" />
 
     <EditText
-        android:id="@+id/senC2"
+        android:id="@+id/ladoC2"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_marginTop="15dp"
@@ -98,7 +99,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView46" />
 
     <EditText
-        android:id="@+id/ladoc2"
+        android:id="@+id/Senc2"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_marginTop="15dp"
@@ -108,7 +109,7 @@
         android:hint="Ingresa senC"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/senC2" />
+        app:layout_constraintTop_toBottomOf="@+id/ladoC2" />
 
     <ImageView
         android:id="@+id/imageView46"
@@ -122,7 +123,7 @@
         app:srcCompat="@drawable/imagen23" />
 
     <TextView
-        android:id="@+id/res2"
+        android:id="@+id/hula1234"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginStart="28dp"
