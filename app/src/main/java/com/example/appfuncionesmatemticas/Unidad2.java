@@ -44,4 +44,11 @@ public class Unidad2 extends AppCompatActivity {
         Intent funcion = new Intent(this,ValoresDeLasFunciones.class);
         startActivity(funcion);
     }
+
+
+    //metodo del boton Geometria analitica
+    public void geo (View view){
+        Intent geo = new Intent(this,GeometriaAnalitica.class);
+        startActivity(geo);
+    }
 }

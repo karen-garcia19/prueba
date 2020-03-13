@@ -6,6 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".Caso6">
 
+    <Button
+        android:id="@+id/button158"
+        android:layout_width="98dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="1dp"
+        android:text="calcular"
+        app:layout_constraintStart_toEndOf="@+id/imageView57"
+        app:layout_constraintTop_toBottomOf="@+id/button157" />
+
+    <Button
+        android:id="@+id/button155"
+        android:layout_width="98dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="1dp"
+        android:text="calcular"
+        app:layout_constraintStart_toEndOf="@+id/imageView57"
+        app:layout_constraintTop_toBottomOf="@+id/button154" />
+
     <TextView
         android:id="@+id/textView204"
         android:layout_width="wrap_content"
@@ -82,24 +104,10 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:ems="10"
-        android:hint="Ingrese ángulo de la función"
+        android:hint="Ingrese el lado de la función"
         android:inputType="numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText9lol5" />
-
-    <Button
-        android:id="@+id/button140"
-        android:layout_width="100dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:text="Calcular"
-        app:layout_constraintEnd_toStartOf="@+id/imageView56"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lol6" />
 
     <ImageView
         android:id="@+id/imageView57"
@@ -107,98 +115,141 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="55dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button140"
+        app:layout_constraintTop_toBottomOf="@+id/lol6"
         app:srcCompat="@drawable/imagen24" />
 
     <TextView
         android:id="@+id/lolr7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginRight="150dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
         android:text="Resultado"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView57"
-        app:layout_constraintTop_toBottomOf="@+id/button140" />
+        app:layout_constraintStart_toEndOf="@+id/button154"
+        app:layout_constraintTop_toBottomOf="@+id/imageView56" />
 
     <TextView
         android:id="@+id/lolr8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginRight="150dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
         android:text="Resultado"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView57"
+        app:layout_constraintStart_toEndOf="@+id/button155"
         app:layout_constraintTop_toBottomOf="@+id/lolr7" />
 
     <TextView
         android:id="@+id/lolr9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginRight="150dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
         android:text="Resultado"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView57"
+        app:layout_constraintStart_toEndOf="@+id/button156"
         app:layout_constraintTop_toBottomOf="@+id/lolr8" />
 
     <TextView
         android:id="@+id/lolr10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginRight="150dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
         android:text="Resultado"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView57"
+        app:layout_constraintStart_toEndOf="@+id/button157"
         app:layout_constraintTop_toBottomOf="@+id/lolr9" />
 
     <TextView
         android:id="@+id/lolr11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginRight="150dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
         android:text="Resultado"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView57"
+        app:layout_constraintStart_toEndOf="@+id/button158"
         app:layout_constraintTop_toBottomOf="@+id/lolr10" />
 
     <TextView
         android:id="@+id/lolr12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginRight="150dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
         android:text="Resultado"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView57"
+        app:layout_constraintStart_toEndOf="@+id/button159"
         app:layout_constraintTop_toBottomOf="@+id/lolr11" />
+
+    <Button
+        android:id="@+id/button154"
+        android:layout_width="98dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="45dp"
+        android:text="calcular"
+        app:layout_constraintStart_toEndOf="@+id/imageView57"
+        app:layout_constraintTop_toBottomOf="@+id/lol6" />
+
+    <Button
+        android:id="@+id/button156"
+        android:layout_width="98dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="1dp"
+        android:text="calcular"
+        app:layout_constraintStart_toEndOf="@+id/imageView57"
+        app:layout_constraintTop_toBottomOf="@+id/button155" />
+
+    <Button
+        android:id="@+id/button157"
+        android:layout_width="98dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="calcular"
+        app:layout_constraintStart_toEndOf="@+id/imageView57"
+        app:layout_constraintTop_toBottomOf="@+id/button156" />
+
+    <Button
+        android:id="@+id/button159"
+        android:layout_width="98dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="1dp"
+        android:text="calcular"
+        app:layout_constraintStart_toEndOf="@+id/imageView57"
+        app:layout_constraintTop_toBottomOf="@+id/button158" />
 </androidx.constraintlayout.widget.ConstraintLayout>

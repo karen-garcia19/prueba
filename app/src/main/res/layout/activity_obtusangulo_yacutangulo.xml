@@ -25,7 +25,7 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="30dp"
                 android:ems="10"
-                android:hint="Ingrese b"
+                android:hint="Ingrese c"
                 android:inputType="numberDecimal"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/kar2" />
@@ -53,7 +53,7 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="50dp"
                 android:ems="10"
-                android:hint="Ingrese c"
+                android:hint="Ingrese a"
                 android:inputType="numberDecimal"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView195" />
@@ -66,7 +66,7 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="30dp"
                 android:ems="10"
-                android:hint="Ingrese a"
+                android:hint="Ingrese b"
                 android:inputType="numberDecimal"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/kar1" />
@@ -78,6 +78,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="35dp"
+                android:onClick="comp"
                 android:text="calcular"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/kar3" />
@@ -86,15 +87,15 @@
                 android:id="@+id/karRes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="113dp"
-                android:layout_marginLeft="113dp"
-                android:layout_marginTop="50dp"
-                android:layout_marginEnd="100dp"
-                android:layout_marginRight="100dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="120dp"
+                android:layout_marginRight="120dp"
                 android:text="Respuesta"
-                android:textSize="18sp"
+                android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/button137"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/kar3" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>

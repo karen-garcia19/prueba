@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".AnguloEntreDosRectas"></activity>
+        <activity android:name=".GeometriaAnalitica" />
+        <activity android:name=".DistanciaDeUnPuntoAUnaRecta" />
+        <activity android:name=".DivisionDeUnSegmentoDeLaRectaDada" />
+        <activity android:name=".PuntoMedio" />
+        <activity android:name=".DistanciaEntreDosPuntos" />
         <activity android:name=".ObtusanguloYAcutangulo" />
         <activity android:name=".Caso6" />
         <activity android:name=".Caso5" />
