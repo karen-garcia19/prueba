@@ -38,7 +38,8 @@ public class Caso6 extends AppCompatActivity {
         double num3 = Double.parseDouble(valor3);
 
         if (num1 == 1 & num2 == 1){
-
+            double hipo = 1;
+            double Resadya = (hipo * hipo) - (num3 * num3);
         }
         if (num1 == 1 & num2 == 2){
 
@@ -53,6 +54,63 @@ public class Caso6 extends AppCompatActivity {
 
         }
         if (num1 == 1 & num2 == 6){
+
+        }
+        //espacio
+        if (num1 == 2 & num2 == 1){
+
+        }
+        if (num1 == 2 & num2 == 2){
+
+        }
+        if (num1 == 2 & num2 == 3){
+
+        }
+        if (num1 == 2 & num2 == 4){
+
+        }
+        if (num1 == 2 & num2 == 5){
+
+        }
+        if (num1 == 2 & num2 == 6){
+
+        }
+        //espacio
+        if (num1 == 3 & num2 == 1){
+
+        }
+        if (num1 == 3 & num2 == 2){
+
+        }
+        if (num1 == 3 & num2 == 3){
+
+        }
+        if (num1 == 3 & num2 == 4){
+
+        }
+        if (num1 == 3 & num2 == 5){
+
+        }
+        if (num1 == 3 & num2 == 6){
+
+        }
+        //espacio
+        if (num1 == 4 & num2 == 1){
+
+        }
+        if (num1 == 4 & num2 == 2){
+
+        }
+        if (num1 == 4 & num2 == 3){
+
+        }
+        if (num1 == 4 & num2 == 4){
+
+        }
+        if (num1 == 4 & num2 == 5){
+
+        }
+        if (num1 == 4 & num2 == 6){
 
         }
     }
